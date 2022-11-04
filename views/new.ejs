@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('./head.ejs') %>
+<body class="bg-dark text-light">
+
+    <div class="container pt-4">
+       <div class="h3 mb-4">Create New Blog</div>
+       <form action="" method="post">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title:</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="category" class="form-label">Category:</label>
+            <select class="form-select" aria-label="Disabled select example">
+                <option selected disabled>Choose category</option>
+                <option value="life">Life</option>
+                <option value="health">Health</option>
+                <option value="technology">Technology</option>
+              </select>
+        </div>
+        <div class="mb-3">
+            <label for="text" class="form-label">Text:</label>
+           <textarea class="form-control" style="resize: none; height: 350px"></textarea>
+        </div>
+        <div class="mb-3">
+            <input class="form-control" type="file" name="poster" id="poster">
+        </div>
+        <div class="d-flex align-items-center">
+            <button type="submit" class="btn btn-primary btn-lg">Publish</button>
+            <a href="/blogs" class="btn btn-warning btn-lg ms-4">Cancel</a>
+        </div>
+       </form>
+    </div>
+    
+    <%- include('./footer.ejs') %>
+</body>
+</html>

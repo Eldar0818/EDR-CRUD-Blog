@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./head.ejs') %>
+<body>
+    <nav class="navbar bg-dark py-5">
+        <div class="container fluid">
+            <a href="/" class="navbar-brand text-light">
+                <div class="h3">SIRDASH</div>
+            </a>
+            <a href="/blogs/new" class="btn btn-outline-success">
+                <i class="fa-solid fa-plus"></i>
+                New Blog
+            </a>
+        </div>
+    </nav>
+
+    <div class="container-lg py-5">
+        <div class="display-5 text-center mb-4">Blogs</div>
+        <div class="row">
+            <% allBlogs.map(blog=> { %>
+
+                <div class="col-md-6">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-md-6">                                
+                                <img src="<%= blog.poster %>" 
+                                class="img-fluid rounded-start" 
+                                style="height: 200px; object-fit: cover"
+                                alt="<%= blog.title %>"
+                                >
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-body">
+                                    <p class="card-text"><%= blog.title %></p>
+                                    <p class="card-text"><small class="text-muted"><%= blog.createdAt %></small></p>
+                                    <a href="#" class="card-link">Read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <% }) %>
+        </div>
+    </div>
+
+
+    <%- include('./footer.ejs') %>
+</body>
+</html>

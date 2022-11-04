@@ -1,0 +1,36 @@
+{
+    "blogs": [
+        {
+            "_id": "01a",
+            "title": "What disease would you like to see cured in your lifetime?",
+            "category": "Health",
+            "createdAt": "11/04/2022",
+            "text": "Glioblastoma. It's the deadliest sort of cerebrum cancer and a significant number of you probably know somebody who has passed on from it. Furthermore, you will unquestionably know somebody who will ultimately pass on from it. It generates in the cerebrum and afterward returns again and again. At the point when they take it out, everything necessary is a couple of maverick cells that disappeared to produce the cancer elsewhere in the cerebrum. It killed John McCain (and Biden's child, a long time back), Rush Drummer Neil Peart, and numerous some more. It's a horrible illness that there is apparently no way out from. The main individuals that have endure are one-off supernatural occurrences. Assuming that you get it, you generally just have 1 to 2 years to live, with exemptions stretching out to 4-5, and outrageous special cases being more.",
+            "poster": "https://qph.cf2.quoracdn.net/main-qimg-0ea193662115aa625f5cdfe8e283ac5d"
+        },
+        {
+            "_id": "02a",
+            "title": "The most interesting disease you and world may not know",
+            "category": "Health",
+            "createdAt": "11/04/2022",
+            "text": "Tarrare was born near Lyon around 1772, and from an early age on, he had a remarkable appetite. By his teens, he could ate his own weight in cow meat on a single day. His voracious appetite was so bad that his parents could not provide enough food anymore, and so he was forced to leave home. Some time later, he toured around with a charlatan, where he ate whatever he was given to eat: Tarrare would draw a crowd by eating corks, stones and live animals, and by swallowing an entire basketful of apples one after the other. During military service, he could not live on the quadruple rations he was given, so he scavenged for garbage in gutters and the like. For the remainder of his life, he would be hungry and ate whatever he could have his hands on. One time, he was ask to eat a wooden box to see if he could carry secret military messages in his stomach.",
+            "poster": "https://qph.cf2.quoracdn.net/main-qimg-9da0e6cddadbd184f6a93b6fe60bffcc-lq"
+        },
+        {
+            "_id": "03a",
+            "title": "China is currently producing a 16MW one.",
+            "category": "Technology",
+            "createdAt": "11/04/2022",
+            "text": "Germany has a 20MW offshore turbine plan but it’s an open source design so it might be built by anyone. To have a better idea about the development it’s crucial to understand what’s happened & what’s happening now. Because of legal height restrictions like the FAA’s, NIMBYism, & limitations on the size of blades transportable by road, onshore wind turbines in the US are converging on 499 feet tall; other countries are facing similar dilemmas. Once older models are replaced, if there are no changes (blades made in sections, lifting of height limits…) only minor improvements in materials & efficiency are likely onshore. But the only restrictions to offshore turbines are the physical limits materials set on tower height & blade length, & how deeply they can be anchored, which determines how far from shore they can be—the best winds being high up & far out. It seems almost all of the advances & price drops for wind power will be happening in the oceans from now on. Vindeby…….The first offshore wind farm was a demonstration project built 1½ km off the SE coast of Denmark in 1991, in 13 feet of water. It was 11 turbines totaling 5 MW that ran for 25 years at a capacity factor of 22%. Hywind…….The first floating wind farm was 5 6 MW turbines installed about 30 km off the coast of Scotland, in 100 m of water in 2017. For the 1st 3 months, late autumn & winter, capacity factor was 65%; that’s since settled down to 56–57% averaged over the year.",
+            "poster": "https://qph.cf2.quoracdn.net/main-qimg-5bb8622c7712d8dcb9b4d21e6dad3cd4-lq"
+        },
+        {
+            "_id": "04a",
+            "title": "Does cornmeal raise blood sugar?",
+            "category": "Food",
+            "createdAt": "11/04/2022",
+            "text": "Corn is recognized as the 'golden crop' in the world. In developed countries such as Europe and the United States, corn has been listed as the first health food among cereals. Cornmeal is made from dried corn or maise, which is ground into a fine, medium, or coarse texture. Cornmeal is rich in protein, carbohydrates, fat, vitamin E, vitamin B2, lecithin, linoleic acid, minerals and other nutrients. However, Cornmeal is not suitable for diabetics. Cornmeal has a glycemic index between 68 and 69, which is a bit high. Corn flour contains about 78% carbohydrate, which comes from high content of starch. Clinical experience shows that corn starch is digested very quickly in the body, which may lead to a surge in blood sugar levels. Cornmeal is much higher in calories than rice, with 100 grams of Cornmeal containing about 360 calories. Eating too much cornmeal can easily lead to weight gain.",
+            "poster": "https://qph.cf2.quoracdn.net/main-qimg-1ec9efbe80d948cdf8ff1578de60b593-pjlq"
+        }
+    ]
+}
