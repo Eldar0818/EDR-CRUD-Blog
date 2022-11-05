@@ -1,4 +1,7 @@
 const mongoose = require('mongoose')
+const slug = require('mongoose-slug-generator')
+
+mongoose.plugin(slug)
 
 const BlogSchema = new mongoose.Schema({
     title: {
@@ -15,8 +18,16 @@ const BlogSchema = new mongoose.Schema({
     },
     poster: {
         type: String,
-        default: 'https://icon-library.com/images/no-photo-icon/no-photo-icon-3.jpg'
     },
+    cloudinary_id: {
+        type: String,
+    },
+    slug: {
+        type: String,
+        slug: 'title',
+        unique: true,
+        slug_padding_size: 2
+    }
 }, {timestamps: true})
 
 module.exports = mongoose.model('Blog', BlogSchema)

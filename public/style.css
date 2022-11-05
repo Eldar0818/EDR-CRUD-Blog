@@ -1,0 +1,14 @@
+.fa-pen-to-square{
+    font-size: 25px;
+    cursor: pointer;
+    color: teal;
+    margin-top: 5px;
+}
+#delete-handler{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+    color: crimson;
+}
