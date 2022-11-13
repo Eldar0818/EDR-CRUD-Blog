@@ -60,4 +60,32 @@ router.get('/edit/:id', async(req, res)=> {
     }
 })
 
+router.put('/edit/:id', async(req, res)=> {
+    try {
+        const updatedBlog = await Blog.findByIdAndUpdate(req.params.id, {
+            $set: req.body
+         },
+         {
+            new: true
+         }
+        )
+        setTimeout(()=> {
+            res.status(200).redirect(`/blogs/${updatedBlog.slug}`)
+        }, 1000)
+    } catch (error) {
+        res.status(500).json(error)
+    }
+})
+
+router.delete('/delete/:id', async(req, res)=> {
+    try {
+        await Blog.findByIdAndDelete(req.params.id)
+        setTimeout(()=> {
+            res.status(200).redirect('/blogs')
+        }, 1000)
+    } catch (error) {
+        res.status(500).json(error)
+    }
+})
+
 module.exports = router

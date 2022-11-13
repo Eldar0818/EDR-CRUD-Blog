@@ -5,7 +5,7 @@
 
     <div class="container pt-4">
        <div class="h3 mb-4">Edit Blog</div>
-       <form action="/blogs/edit" method="post" >
+       <form action="/blogs/edit/<%= blog._id %>?_method=PUT" method="post" >
         <div class="mb-3">
             <label for="title" class="form-label">Title:</label>
             <input type="text" name="title" id="title" value="<%= blog.title %>" class="form-control" required>
@@ -24,6 +24,7 @@
                 <option value="Life">Life</option>
                 <option value="Health">Health</option>
                 <option value="Technology">Technology</option>
+                <option value="Sport">Sport</option>
               </select>
         </div>
         <div class="mb-3">
@@ -34,7 +35,7 @@
         </div>
         <div class="d-flex align-items-center">
             <button type="submit" class="btn btn-primary btn-lg">Publish</button>
-            <a href="/blogs" class="btn btn-warning btn-lg ms-4">Cancel</a>
+            <a href="/blogs/<%=blog.slug%>" class="btn btn-warning btn-lg ms-4">Cancel</a>
         </div>
        </form>
     </div>

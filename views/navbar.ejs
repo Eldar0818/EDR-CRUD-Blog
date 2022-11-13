@@ -3,9 +3,14 @@
         <a href="/" class="navbar-brand text-light">
             SIRDASH Amin
         </a>
-        <a href="/blogs/new" class="btn btn-outline-success">
-            <i class="fa-solid fa-plus"></i>
-            New Blog
-        </a>
+        <div class="d-flex align-items-center">
+            <a href="/blogs/new" class="btn btn-outline-success">
+                <i class="fa-solid fa-plus"></i>
+                New Blog
+            </a>
+            <form action="/logout?_method=DELETE" method="post">
+                <button type="submit" class="btn btn-large btn-light mx-2">Logout</button>
+            </form>
+        </div>
     </div>
 </nav>
